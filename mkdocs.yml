@@ -1,64 +1,10 @@
-site_name: "Dissonance: Unity Voice Chat"
-repo_url: "https://github.com/Placeholder-Software/Dissonance"
+site_name: "Wet Stuff"
+repo_url: "https://github.com/Placeholder-Software/wetsurfacedecals"
 repo_name: "Issue Tracker"
-site_favicon: "dissonance.png"
+site_favicon: "wetstuff.png"
 google_analytics: ["UA-46722926-4", "wetsurfacedecals.readthedocs.io"]
 theme: readthedocs
 theme_dir: theme
 copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder Software</a>"
 pages:
 - Home: "index.md"
-- "Project Setup": "Basics/Getting-Started.md"
-- "Installation Requirements": "Basics/End-User-Requirements.md"
-- "Quick Start Guides":
-    - "Forge Networking Remastered": "Basics/Quick-Start-Forge-Remastered.md"
-    - "Forge Networking Classic": "Basics/Quick-Start-Forge.md"
-    - "Photon Unity Networking": "Basics/Quick-Start-Photon.md"
-    - "Photon BOLT": "Basics/Quick-Start-Photon-Bolt.md"
-    - "Unity Networking HLAPI": "Basics/Quick-Start-UNet-HLAPI.md"
-    - "Steamworks.NET P2P": "Basics/Quick-Start-Steamworks.Net-P2P.md"
-    - "Self Contained": "Basics/Quick-Start-UNet-LLAPI.md"
-- "Basic Concepts": "Basics/Introduction-To-Chat-Rooms.md"
-- "Introductory Tutorials":
-    - "Push-To-Talk": "Tutorials/Push-to-Talk.md"
-    - "Global Chat Room": "Tutorials/Global-Chat-Room.md"
-    - "Team Chat Rooms": "Tutorials/Team-Chat-Rooms.md"
-    - "Text Chat": "Tutorials/Text-Chat.md"
-    - "Transmit to Player": "Tutorials/Direct-Player-Transmit.md"
-    - "Position Tracking": "Tutorials/Position-Tracking.md"
-    - "Position Tracking For BOLT": "Tutorials/Position-Tracking-For-Bolt.md"
-    - "Proximity Chat": "Tutorials/Proximity-Chat.md"
-    - "Collider Chat Rooms": "Tutorials/Collider-Chat-Room.md"
-    - "Finding Players": "Tutorials/Player-State.md"
-    - "Audio Mixing For Voice": "Tutorials/Audio-Mixing.md"
-    - "Access Tokens": "Tutorials/Access-Control-Tokens.md"
-    - "Channel Priority": "Tutorials/Channel-Priority.md"
-    - "Channel Volume": "Tutorials/Channel-Volume.md"
-    - "Custom Playback Prefab": "Tutorials/Playback-Prefab.md"
-    - "Script Controlled Speech": "Tutorials/Script-Controlled-Speech.md"
-    - "Spatialization Plugins": "Tutorials/Spatializer-Plugin.md"
-- "Advanced Tutorials":
-    - "Writing A Custom Network Integration": "Tutorials/Custom-Networking.md"
-    - "Writing A Custom IDissonancePlayer": "Tutorials/Custom-Position-Tracking.md"
-    - "Writing A Custom Microphone Capture System": "Tutorials/Custom-Microphone-Capture.md"
-    - "Using Channels": "Tutorials/Directly-Using-Channels.md"
-    - "Acoustic Echo Cancellation": "Tutorials/Acoustic-Echo-Cancellation.md"
-- Reference:
-    - Components:
-        - "Voice Broadcast Trigger": "Reference/Components/Voice-Broadcast-Trigger.md"
-        - "Voice Receipt Trigger": "Reference/Components/Voice-Receipt-Trigger.md"
-        - "Dissonance Comms": "Reference/Components/Dissonance-Comms.md"
-    - Audio:
-        - "Voice Activation Detection": "Reference/Audio/VAD.md"
-        - "Voice Settings": "Reference/Audio/VoiceSettings.md"
-    - Networking:
-        - "Network Packet Format": "Reference/Networking/Packet-Format.md"
-    - Other:
-        - "Rooms": "Reference/Other/Rooms.md"
-        - "RoomChannels": "Reference/Other/RoomChannels.md"
-        - "RoomChannel": "Reference/Other/RoomChannel.md"
-        - "PlayerChannels": "Reference/Other/PlayerChannels.md"
-        - "PlayerChannel": "Reference/Other/PlayerChannel.md"
-        - "TextChat": "Reference/Other/TextChat.md"
-        - "VoicePlayerState": "Reference/Other/VoicePlayerState.md"
-        - "RemoteChannel": "Reference/Other/RemoteChannel.md"
