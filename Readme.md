@@ -1,9 +1,8 @@
-## Dissonance - Unity Voice Chat Asset
+## Wet Stuff - Unity Deferred Wet Surface Effect
 
-Dissonance is a drop in voice chat asset for multiplayer games built in unity. This repository does *not* contain the source code for Dissonance, it is used to host documentation and issue tracking.
+Wet Stuff is graphical effect to make surfaces appear wet without requiring any changes to the materials used. The effect is based on deferred decals, so it can easily be added into any scene.
 
- - [Homepage](https://placeholder-software.co.uk/dissonance)
- - [Unity Store](https://www.assetstore.unity3d.com/en/#!/content/70078)
- - [Documentation](https://dissonance.readthedocs.io/en/latest/)
- - [Issue Tracker](https://github.com/Placeholder-Software/Dissonance/issues)
- - [Discussion Forum](https://www.reddit.com/r/dissonance_voip)
+ - [Homepage](https://placeholder-software.co.uk/wetstuff)
+ - Unity Store - todo: insert link here once released
+ - [Documentation](<https://wetsurfacedecals.readthedocs.io/en/latest/>)
+ - [Issue Tracker](<https://github.com/Placeholder-Software/WetSurfaceDecals/issues>)
