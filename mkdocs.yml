@@ -3,9 +3,6 @@ repo_url: "https://github.com/Placeholder-Software/wetsurfacedecals"
 repo_name: "Issue Tracker"
 site_favicon: "wetstuff.png"
 google_analytics: ["UA-46722926-4", "wetsurfacedecals.readthedocs.io"]
-theme:
-  name: readthedocs
-  custom_dir: theme
 copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder Software</a>"
 pages:
 - Home: "index.md"
