@@ -20,6 +20,6 @@ pages:
     - "WetDecal": "Reference/WetDecal.md"
     - "WetSurfaceDecals": "Reference/WetSurfaceDecals.md"
     - "Shaders":
-        - "WetSurfaceCore": "Reference/WetSurfaceCore.md"
-        - "WetSurfaceMask": "Reference/WetSurfaceMask.md"
-        - "WetSurfaceModifier": "Reference/WetSurfaceModifier.md"
+        - "WetSurfaceCore": "Reference/Shaders/WetSurfaceCore.md"
+        - "WetSurfaceMask": "Reference/Shaders/WetSurfaceMask.md"
+        - "WetSurfaceModifier": "Reference/Shaders/WetSurfaceModifier.md"
