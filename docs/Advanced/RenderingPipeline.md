@@ -1,0 +1,1 @@
+todo: overview of how the effect is rendered

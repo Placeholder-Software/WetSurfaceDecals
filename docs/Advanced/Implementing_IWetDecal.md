@@ -1,0 +1,1 @@
+todo: guide on how to implement IWetDecal interface

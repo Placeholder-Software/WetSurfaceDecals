@@ -6,3 +6,20 @@ google_analytics: ["UA-46722926-4", "wetsurfacedecals.readthedocs.io"]
 copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder Software</a>"
 pages:
 - Home: "index.md"
+- "Getting Started":
+    - "Project Setup": "GettingStarted/Installation.md"
+    - "Basic Wet Decals": "GettingStarted/WetDecal.md"
+    - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
+- "Tutorials":
+    - "todo": "Tutorials/todo.md"
+- "Advanced":
+    - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
+    - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
+- "Reference":
+    - "ParticleWetSplatter": "Reference/ParticleWetSplatter.md"
+    - "WetDecal": "Reference/WetDecal.md"
+    - "WetSurfaceDecals": "Reference/WetSurfaceDecals.md"
+    - "Shaders":
+        - "WetSurfaceCore": "Reference/WetSurfaceCore.md"
+        - "WetSurfaceMask": "Reference/WetSurfaceMask.md"
+        - "WetSurfaceModifier": "Reference/WetSurfaceModifier.md"
