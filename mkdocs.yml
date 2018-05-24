@@ -7,8 +7,8 @@ copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder S
 pages:
 - Home: "index.md"
 - "Getting Started":
-    - "Project Setup": "GettingStarted/Installation.md"
-    - "Basic Wet Decals": "GettingStarted/WetDecal.md"
+    - "Quick Start": "GettingStarted/QuickStart.md"
+    - "Basic Wet Decal": "GettingStarted/WetDecal.md"
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
 - "Tutorials":
     - "todo": "Tutorials/todo.md"
