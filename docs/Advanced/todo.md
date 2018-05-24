@@ -1,0 +1,1 @@
+ - Perhaps mention how to resolve stencil conflicts (how to detect them, what to change to resolve them).

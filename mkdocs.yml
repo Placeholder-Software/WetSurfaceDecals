@@ -11,6 +11,7 @@ pages:
     - "Basic Wet Decal": "GettingStarted/WetDecal.md"
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
 - "Tutorials":
+    - "Levels Visualizer": "Tutorials/LevelsVisualizer.md"
     - "todo": "Tutorials/todo.md"
 - "Advanced":
     - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"

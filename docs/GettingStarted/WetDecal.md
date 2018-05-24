@@ -1,14 +1,31 @@
-The `WetDecal` script will project "wetness" onto any geomery surface that lies within its area. The geometry properties will be modified to simulate water saturation building up inside the microstructure of the surface, from slightly damp up to a thin film of water lying on top of the surface.
+The `WetDecal` script will project "wetness" onto any surface that it overlaps. The properties of the surface will be modified to simulate water saturation building up inside the microstructure of the surface, from slightly damp up to a thin film of water lying on top of the surface.
 
 > Decals are only visible to cameras that have a `WetSurfaceDecals` script attached.
 
-## Prefabs
+## A Simple Puddle
 
-There are prefabs included with Wet Stuff that provide example decals for common scenarios. It is recommended that you take a look at these before trying to define your own decals. These prefabs include both a pre-configured `WetDecal`, and a custom script which provides an animation slider to demonstrate how the fields on the decal can be adjusted to provide animation.
+1. Create a new game object in your scene.
+2. Attach a `Wet Decal` component.
+3. Set `Saturation` to `1.0`, this will create a region of maximum wetness (a thin film of water covering the surface)
+4. Move and scale the decal until it is the size and shape you want
 
-### Puddles
+This "puddle" doesn't look very good yet, it's just a square of wetness.
 
-This prefab creates puddles of water that grow as their animation progresses. 
+5. Change `Layer Mode` to `Single`, this will enable a single detail layer.
+6. Expand the new detail layer and set the `Layer Mask` to `rgba-noise-freq-range`. This texture contains perlin noise, starting with high frequency noise in the Red channel down to low frequency noise in the alpha channel.
+7. Change the green channel to `Simple Range Remap`. Tweak the `Threshold` and `Softness` values and observe how the puddle changes.
+
+This is the most basic puddle you can create with Wet Stuff. Just a single channel of perlin noise, correctly thresholded to produce a good looking puddle.
+
+## Demos / Prefabs
+
+The demo scenes are contained in `Assets/PlaceholderSoftware/Demos`. Each scene demonstrates a single aspect of the asset and is built around a prefab which you can tweak and use in your own games.
+
+It is recommended that you take a look through these prefabs and understand how they work to get a feel for the best way to achieve various effects.
+
+### Puddle Prefab
+
+This prefab creates a puddle of water that grows as the animation progresses.
 
 The effect is achieved by using a perlin noise texture to define saturation layers. This texture is then clipped against a threshold region which is shifted downwards as the animation proceeds. As the threshold falls, more of the noise texture is included in the output.
 
@@ -32,16 +49,6 @@ The animation finishes by drying the area. The 2nd perlin noise channel has its 
 
 [picture of drying puddle]
 
-## Configuration
+## Inspector Reference
 
-## Saturation
-
-Saturation represents an overall "wetness" slider. Values from 0 to ~0.8 represent water building up within the surface, providing the effect of the surface getting progressively damper. Values from ~0.8 to 1 represent oversaturation - where a thin layer of water has built up over the surface to form a shallow puddle.
-
-## Layers
-
-Layers are textures which are projected either horizontally or vertically onto the surface and provide more detailed definition to the satutaion levels within the volume.
-
-The value samples from the layer textures can be re-mapped from their [0,1] range to a different saturation range, and can be clipped against thresholds. Adjusting these ranges at runtime allows for animation of the decal.
-
-Each of the four channels in a layer texture can controlled individually. The final saturation value is taken as the maximum of all channels.
+The WetDecal component is a powerful component with a lot of configuration options exposed in the inspector. Make sure to read through the [Wet Decal reference](/Reference/WetDecal) which explains exactly what each part of the inspector does.

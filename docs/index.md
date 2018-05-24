@@ -1,6 +1,6 @@
 ## Wet Stuff
 
-![Wet Surfaces](/images/DemoReelThumbnail.png)
+![Wet Surfaces](./images/DemoReelThumbnail.png)
 
 Wet Stuff allows you to place deferred decals into the scene which project "wetness" onto surfaces within their volume. Define complex layered and animated decals to simulate rain, puddles, damp, leaking pipes, and more - without making any modifications to any of your assets or replacing shaders. This allows you to dramatically change the atmosphere of your scene in seconds with editor placed decals, or to generate decals dynamically by attaching them to particle collision points.
 
