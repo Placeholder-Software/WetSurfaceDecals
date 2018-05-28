@@ -12,12 +12,15 @@ pages:
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
 - "Tutorials":
     - "Levels Visualizer": "Tutorials/LevelsVisualizer.md"
-    - "todo": "Tutorials/todo.md"
+    - "Puddles": "Tutorials/PuddlesPrefab.md"
+    - "Rain": "Tutorials/RainPrefab.md"
+    - "Timeline": "Tutorials/Timeline.md"
 - "Advanced":
     - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
     - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
 - "Reference":
     - "ParticleWetSplatter": "Reference/ParticleWetSplatter.md"
+    - "ParticleWetSplatterTemplate": "Reference/ParticleWetSplatterTemplate.md"
     - "WetDecal": "Reference/WetDecal.md"
     - "WetSurfaceDecals": "Reference/WetSurfaceDecals.md"
     - "Shaders":
