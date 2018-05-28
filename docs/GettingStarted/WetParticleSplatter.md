@@ -21,7 +21,7 @@ The `WetParticleSplatter` component can be added to any game object that also co
 
 When you run the game you will see particles being created whenever a particle collides with an object.
 
-Here is an example of a more complex system using two different templates (an arrow and a splash). The "impact velocity" feature is enabled, so the particle are aligned with the impact velocity and scaled slightly according to how fast the impact was:
+Here is an example of a more complex system using two different templates (an arrow and a splash). The "impact velocity" feature is enabled, so the decals are aligned with the impact direction and scaled slightly according to how fast the impact was:
 
 ![Gif Of Splatters](../images/ParticleWetSplatterAnim.gif)
 

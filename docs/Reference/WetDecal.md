@@ -8,7 +8,7 @@ The Wet Decal component is a powerful component with a lot of configuration opti
 
 ### Wet Decal
 
-This sdection contains the core settings for the decal.
+This section contains the core settings for the decal.
 
 #### Saturation
 
