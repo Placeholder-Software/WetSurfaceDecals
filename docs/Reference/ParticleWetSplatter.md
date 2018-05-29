@@ -70,7 +70,7 @@ So small decals which are almost dry (i.e. hard to see) will preferantially be s
 
 ## Randomize Size
 
-An optional component which, if enabled, randomly inflates each new decal by some amount. See [Decal Size](#Decal-Size).
+An optional component which, if enabled, randomly inflates each new decal by some amount.
 
 ### Min/Max Inflation
 
