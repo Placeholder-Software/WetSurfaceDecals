@@ -1,8 +1,8 @@
 # Wet Decal Reference
 
-## Inspector
+This component creates a single wet decal in the scene.
 
-The Wet Decal component is a powerful component with a lot of configuration options exposed in the inspector.
+## Inspector
 
 ![Wet Decal Inspector](../images/WetDecalInspector.png)
 
