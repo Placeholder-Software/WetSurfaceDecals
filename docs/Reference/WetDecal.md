@@ -22,7 +22,7 @@ The decal can either be shaped as a cube or a sphere, this is selected using the
 
 ![Wet Decal Inspector](../images/FaceSharpness.png)
 
-Face sharpness controls how rapidly the effect fades off as the direction of the surface changes. Both of these spheres have a wetness effect being projected from above. The left sphere has a high face sharpness value, causing the effect to fade off as the surface direction is no longer facing upwards. The right sphere has a zero face sharpness value, causing the effect to be cut off as soon as the surface is facing away.
+Face sharpness controls how rapidly the effect fades off as the direction of the surface changes. Both of these spheres have a wetness effect being projected from above. The left sphere has a high face sharpness value, causing the effect to fade off as the surface direction is no longer facing upwards. The right sphere has a low (0.001) face sharpness value, causing the effect to be cut off as soon as the surface is facing away.
 
 #### Layer Mode
 
@@ -41,6 +41,10 @@ This setting adds dithering to all of the texture samples performed in the wet s
 Depending on the `Layer Mode` setting there will be 0, 1 or 3 detail layers - each decal layer projects a single texture in a single direction.
 
 The values sampled from the layer mask texture control how the saturation changes per pixel. The maximum value from all 4 channels is used as the final saturation value.
+
+> Tip: Detail Layer settings can be copied and pasted between layers.
+
+![Copy Paste Tip](../images/CopyPaste.png)
 
 #### Layer Mask
 
