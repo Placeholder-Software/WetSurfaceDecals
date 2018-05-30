@@ -4,19 +4,33 @@
 
 ![Demo Scene 4](../images/DemoScene4Particles.png)
 
-This scene demonstrates a single fast particle splatter.
+This scene demonstrates a single fast particle splatter. There is a fixed number of decals which can be created and decals do not have any kind of lifetime, once placed they are permanent.
 
-The `Particle System` object contains a Particle System component which emits a burst of particles after a few seconds, these particles have collisions enabled and collide with a plane which intersects the wooden floor. There is also a `Particle Wet Splatter` component on this object. It has the 4 features enabled:
+The `Particle System` object contains a Particle System component which emits a burst of particles after a few seconds, these particles have collisions enabled send collision messages. They are set to collide with an invisible plane which intersects the wooden floor. There is also a `Particle Wet Splatter` component on this object. It has the 4 features enabled:
 
- - _Decal Count Limit_ is set to the same number as the amount of particles which will be emitted. The Decal chance is set to a flat line so every particle impact will generate a decal.
+### Decal Count Limit
 
- - _Randomize Size_ is enabled, this will slightly change the size of each decal (between 0.75x and 1.25x).
+This controls how many decals can be created. It is set to 45 which is the same number of particles which will be emitted in the burst. The `Decal Chance` curve controls how the chance of a decal being spawned changes as the number of decals increases this can be used to prevent a hard cutoff as the decal limit is hit. In this case it is set to a flat line because there are exactly enough decals.
 
- - _Randomize Orientation_ is enabled, this will slightly rotate each decal left or right by a small amount. The rotation will be applied _after_ the decal has been aligned with the impact velocity, so it will rotate around that alignment.
+### Randomize Size
 
- - _Impact Velocity_ will align each decal with the direction of the impact, stretch it along the impact direction according to the _Scale_ curve and will offset it from the impact point along the impact direction according to the _Offset_ curve.
+This changes the size of each individual decal. For each decal created the `Decal Size` set in the core settings will be multiplied by a random value between min and max to choose the size. A small amount of randomization creates a much more natural look to splatters.
 
-There are also 4 `Particle Wet Splatter Template` components. Each of these defines a decal and a probability. When a new decal is created by the splatter system it will randomly select one of these templates according to the probability values on the templates. In this case all the templates have a weight of `1` so they are all equally likely.
+### Randomize Orientation
+
+This rotates each decal a random amount left or right around it's Y axis. The Y-Axis of each decal is set to the _normal_ of the collision event, so it points up out of the surface the decal is placed on.
+
+### Impact Velocity
+
+This aligns the decal will the velocity of the particle at the point of impact. The randomization applied by `Randomize Orientation` is applied after the decal has been aligned - so each particle will be within 14 degrees (7 degrees, left or right) of the impact velocity of the particle which created it.
+
+The `Scale` curve controls how the particle is stretched along the direction of impact according to the impact velocity. In this case the decals will be stretched 1x (i.e. no stretch) if the impact velocity is zero and 3x if the impact velocity is one or greater.
+
+The `Offset` curve controls how the particle is offset from the impact points along the direction of impact according to the impact velocity. In this case the decals will be moved up to `0.2` when the impact velocity is `1`.
+
+## Particle Wet Splatter Template
+
+There are 4 of these components attached to the object. Each one defines a decal and a probability. When a new decal is created by the splatter system it will randomly select one of these templates according to the probability values on the templates. In this case all the templates have a weight of `1` so they are all equally likely.
 
 ### Adjustments
 
