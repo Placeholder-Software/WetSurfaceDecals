@@ -16,16 +16,16 @@ pages:
     - "3. Rain": "Demo Scenes/Rain.md"
     - "4. Particles (Fast Splat)": "Demo Scenes/Particles1.md"
     - "5. Particles (Continuous Drip)": "Demo Scenes/Particles2.md"
-- "Advanced":
-    - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
-    - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
+#- "Advanced":
+#    - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
+#    - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
 - "Reference":
     - "ParticleWetSplatter": "Reference/ParticleWetSplatter.md"
     - "ParticleWetSplatterTemplate": "Reference/ParticleWetSplatterTemplate.md"
     - "WetDecal": "Reference/WetDecal.md"
     - "Levels Visualizer": "Reference/LevelsVisualizer.md"
     - "WetSurfaceDecals": "Reference/WetSurfaceDecals.md"
-    - "Shaders":
-        - "WetSurfaceCore": "Reference/Shaders/WetSurfaceCore.md"
-        - "WetSurfaceMask": "Reference/Shaders/WetSurfaceMask.md"
-        - "WetSurfaceModifier": "Reference/Shaders/WetSurfaceModifier.md"
+    #- "Shaders":
+    #    - "WetSurfaceCore": "Reference/Shaders/WetSurfaceCore.md"
+    #    - "WetSurfaceMask": "Reference/Shaders/WetSurfaceMask.md"
+    #    - "WetSurfaceModifier": "Reference/Shaders/WetSurfaceModifier.md"
