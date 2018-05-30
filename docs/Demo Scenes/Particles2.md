@@ -2,7 +2,7 @@
 
 > This demo is located at `"Assets/PlaceholderSoftware/WetSurfaceDecals/Demos/5. Particles (Drip Drip Drip)"`
 
-![Demo Scene 4](../images/DemoScene5Particles.png)
+![Demo Scene 4](../images/DemoScene5Particles.jpg)
 
 This scene demonstrates a continuous dripping of particles with a sub-emitter burst of particles triggered when a particle collides with the floor. These two particle system use different configurations for the `Particle Wet Splatter`.
 
