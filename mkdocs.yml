@@ -10,15 +10,12 @@ pages:
     - "Quick Start": "GettingStarted/QuickStart.md"
     - "Basic Wet Decal": "GettingStarted/WetDecal.md"
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
-- "Demo Scenes":
+- "Demo Scene Breakdown":
     - "1. Basic Puddle": "Demo Scenes/Puddle.md"
     - "2. Drying With Timeline": "Demo Scenes/Drying.md"
     - "3. Rain": "Demo Scenes/Rain.md"
     - "4. Particles (Fast Splat)": "Demo Scenes/Particles1.md"
     - "5. Particles (Continuous Drip)": "Demo Scenes/Particles2.md"
-- "Tutorials":
-    - "Levels Visualizer": "Tutorials/LevelsVisualizer.md"
-    - "Timeline": "Tutorials/Timeline.md"
 - "Advanced":
     - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
     - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
@@ -26,6 +23,7 @@ pages:
     - "ParticleWetSplatter": "Reference/ParticleWetSplatter.md"
     - "ParticleWetSplatterTemplate": "Reference/ParticleWetSplatterTemplate.md"
     - "WetDecal": "Reference/WetDecal.md"
+    - "Levels Visualizer": "Reference/LevelsVisualizer.md"
     - "WetSurfaceDecals": "Reference/WetSurfaceDecals.md"
     - "Shaders":
         - "WetSurfaceCore": "Reference/Shaders/WetSurfaceCore.md"
