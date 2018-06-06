@@ -16,6 +16,7 @@ pages:
     - "3. Rain": "Demo Scenes/Rain.md"
     - "4. Particles (Fast Splat)": "Demo Scenes/Particles1.md"
     - "5. Particles (Continuous Drip)": "Demo Scenes/Particles2.md"
+    - "6. Triplanar Mapping": "Demo Scenes/Triplanar.md"
 #- "Advanced":
 #    - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
 #    - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
