@@ -48,7 +48,7 @@ The lifetime of each new decal will be a value between these two values.
 
 ### Saturation
 
-A curve which defines how the saturation of a decal changes over it's lifetime. The X-Axis should be from `0` to `1`.
+A curve which defines how the saturation of a decal changes over its lifetime. The X-Axis should be from `0` to `1`.
 
 ## Recycling
 
@@ -56,17 +56,17 @@ An optional component which, if enabled, re-uses previously used decals to creat
 
 ### Max Accelerated Ageing
 
-When a particle impact occurs and a the effect attempts to generate a new decal but fails because the decal count limit has been reached it will select a random decal and accelerate it's ageing by a random amount up to this value. This makes it slightly more likely that a decal will have timed out (and be available for re-use) next time an impact occurs.
+When a particle impact occurs and the effect attempts to generate a new decal but fails because the decal count limit has been reached it will select a random decal and accelerate it's ageing by a random amount up to this value. This makes it slightly more likely that a decal will have timed out and be available for re-use next time an impact occurs.
 
 ### Steal Threshold
 
-When a particle impact occurs and a the effect attempts to generate a new decal but fails because the decal count limit has been reached it will attempt to find a decal below this threshold, if it finds one it will immediately kill it and use it to create a new decal for the new impact. This can cause a visual "pop" as the old decal immediately disappears without fading.
+When a particle impact occurs and the effect attempts to generate a new decal but fails because the decal count limit has been reached it will attempt to find a decal below this threshold, if it finds one it will immediately kill it and use it to create a new decal for the new impact. This can cause a visual "pop" as the old decal immediately disappears without fading.
 
 The value used for the threshold is an approximation of the amount of "pop" which will happen due to immediately killing this decal:
 
  > `Decal Area * Decal Saturation`
 
-So small decals which are almost dry (i.e. hard to see) will preferantially be stolen.
+So small decals which are almost dry (i.e. hard to see) will preferentially be stolen.
 
 ## Randomize Size
 

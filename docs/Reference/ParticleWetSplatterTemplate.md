@@ -1,6 +1,6 @@
 # Particle Wet Splatter Template Reference
 
-This component is a template for splatters created by the [Particle Wet Splatter](/Reference/ParticleWetSplatter) component. When the particle wet splatter component needs to create a new splatter it will pick a random template and create a splatter using it's settings.
+This component is a template for splatters created by the [Particle Wet Splatter](/Reference/ParticleWetSplatter) component. When the particle wet splatter component needs to create a new splatter it will pick a random template and copy the settings from the template to the new splatter.
 
 All settings not listed here are _exactly_ the same as the [Wet Decal Component](/Reference/WetDecal).
 

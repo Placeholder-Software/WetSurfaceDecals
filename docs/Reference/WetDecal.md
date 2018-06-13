@@ -38,7 +38,7 @@ This setting adds dithering to all of the texture samples performed in the wet s
 
 ### Layers
 
-Depending on the `Layer Mode` setting there will be 0, 1 or 3 detail layers - each decal layer projects a single texture in a single direction.
+Depending on the `Layer Mode` setting there will be 0, 1 or 3 detail layers - each layer projects a single texture along a direction.
 
 The values sampled from the layer mask texture control how the saturation changes per pixel. The maximum value from all 4 channels is used as the final saturation value.
 

@@ -6,7 +6,7 @@
 
 This scene demonstrates a single fast particle splatter. There is a fixed number of decals which can be created and decals do not have any kind of lifetime, once placed they are permanent.
 
-The `Particle System` object contains a Particle System component which emits a burst of particles after a few seconds, these particles have collisions enabled send collision messages. They are set to collide with an invisible plane which intersects the wooden floor. There is also a `Particle Wet Splatter` component on this object. It has the 4 features enabled:
+The `Particle System` object contains a Particle System component which emits a burst of particles after a few seconds, these particles have collisions enabled (Under `Collision > Send Collision Messages`). There is also a `Particle Wet Splatter` component on this object. It has the 4 features enabled:
 
 ### Decal Count Limit
 

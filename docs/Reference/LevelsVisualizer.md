@@ -10,11 +10,11 @@ It shows how the texture data (shown on the left) is converted into wetness valu
 
 Controls _which part_ of the input gets mapped into the output.
 
-When the threshold is at zero all values in the input texture will result in a completely dry surface. This is shown by the output (on the right) being completely on the bottom:
+When the threshold is set to `0` all values in the input texture will result in a completely dry surface. This is shown by the output (on the right) being completely on the bottom:
 
 ![All Dry](../images/ThresholdCompletelyDry.gif)
 
-When the threshold is at one all values in the input texture will results in a completely wet surface. This is shown by the output (in the left) being completely on the top:
+When the threshold is set to `1` all values in the input texture will result in a completely wet surface. This is shown by the output (in the left) being completely on the top:
 
 ![All Wet](../images/ThresholdCompletelyWet.gif)
 
