@@ -10,6 +10,10 @@ This component creates a single wet decal in the scene.
 
 This section contains the core settings for the decal.
 
+#### Mode
+
+Can be set to `Wet` or `Dry`. When the decal is set to `Wet` mode the output values will increase surface wetness. When the decal is set to `Dry` mode the output values will be multiplied with the previously generated wet values, decreasing surface wetness.
+
 #### Saturation
 
 Saturation represents the overall "wetness" of the decal. Values from 0 to ~0.8 represent water building up within the surface, providing the effect of the surface getting progressively more damp. Values from ~0.8 to 1 represent oversaturation - where a thin layer of water has built up over the surface to form a shallow puddle.
