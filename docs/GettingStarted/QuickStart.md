@@ -10,9 +10,9 @@ This folder contains the changelog, prefabs and demo scenes.
 
 This folder contains the core effect.
 
-## 2. Add `WetSurfaceDecals` script to your cameras
+## 2. Add `WetStuff` script to your cameras
 
-Add the `WetSurfaceDecals` script to each camera in your scene. Cameras must have this script attached for the decals to be visible from that camera.
+Add the `WetStuff` script to each camera in your scene. Cameras must have this script attached for the decals to be visible from that camera.
 
 > **Ensure that the camera is rendering using the Deferred pipeline.**
 

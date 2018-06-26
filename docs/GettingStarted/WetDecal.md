@@ -1,6 +1,6 @@
 The `WetDecal` script will project "wetness" onto any surface that it overlaps. The properties of the surface will be modified to simulate water saturation building up inside the microstructure of the surface, from slightly damp up to a thin film of water lying on top of the surface.
 
-> Decals are only visible to cameras that have a `WetSurfaceDecals` script attached.
+> Decals are only visible to cameras that have a `WetStuff` script attached.
 
 ## A Simple Puddle
 
