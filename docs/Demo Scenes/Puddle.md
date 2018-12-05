@@ -4,7 +4,7 @@
 
 ![Demo Scene 1](../images/DemoScene1Puddle.png)
 
-This scene demonstrates a very basic puddle of water. A `Wet Decal` component has been configured to have a single detail layer. The layer mask for the detail layer has been set to "rgba-noise-freq-range", this texture contains 4 frequencies of noise, high frequency in red through to low frequency in alpha.
+This scene demonstrates a very basic puddle of water. A `Wet Decal` component has been configured to have a single detail layer. The layer mask for the detail layer has been set to "rgba-freq-range", this texture contains 4 frequencies of noise, high frequency in red through to low frequency in alpha.
 
 The red channel (high frequency perlin noise) is enabled with a low threshold and low softness - this produces a few small patches of wet. The alpha channel (low frequency perlin noise) is enabled with a higher threshold and softness - this produces a single large puddle.
 

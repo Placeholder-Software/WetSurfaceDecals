@@ -16,7 +16,9 @@ The base size of the decals created by this component. It may be modified by oth
 
 ### Vertical Offset
 
-How far to offset the decal away from the collision point. Use negative values to move the decal further into the collision points. If the surface is bumpy it is advisable to use a small negative offset to ensure that decals completely cover the surface at the impact point.
+How far to offset the decal away from the collision point. Use negative values to move the decal further into the collision points.
+
+If the surface collision geometry is inflated you should set the vertical offset to be approximately the inverse of the inflation amount. This will ensure the decal is placed intersecting the _graphical_ surface, rather than the _physical_ one.
 
 ### Decal Chance
 

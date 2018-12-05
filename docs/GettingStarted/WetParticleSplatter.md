@@ -26,3 +26,7 @@ Here is an example of a more complex system using two different templates (an ar
 ![Gif Of Splatters](../images/ParticleWetSplatterAnim.gif)
 
 Make sure to check out the [Particle Wet Splatter](/Reference/ParticleWetSplatter) and [Particle Wet Splatter Template](/Reference/ParticleWetSplatterTemplate) reference docs for full details on all the features.
+
+## A Note On Collision Geometry
+
+The Wet Splatter decals are created where the particle impacts collision geometry. However, collision geometry often does not conform exactly to the graphical mesh which it surrounds, it is usually slightly larger. If the collision geometry is sufficiently inflated this can cause all of the splatters to be invisible because they are not intersecting the graphical geometry. To fix this the `Particle Wet Splatter` component has a `Vertical Offset` setting which offsets all decals along the collision normal vector by a fixed amount. You should set it to the inverse of the inflation used on your collision meshes.
