@@ -12,7 +12,7 @@ The `WetDecal` script will project "wetness" onto any surface that it overlaps. 
 This "puddle" doesn't look very good yet, it's just a square of wetness.
 
 5. Change `Layer Mode` to `Single`, this will enable a single detail layer.
-6. Expand the new detail layer and set the `Layer Mask` to `rgba-noise-freq-range`. This texture contains perlin noise, starting with high frequency noise in the Red channel down to low frequency noise in the alpha channel.
+6. Expand the new detail layer and set the `Layer Mask` to `rgba-freq-range`. This texture contains perlin noise, starting with high frequency noise in the Red channel down to low frequency noise in the alpha channel.
 7. Change the green channel to `Simple Range Remap`. Tweak the `Threshold` and `Softness` values and observe how the puddle changes.
 
 This is the most basic puddle you can create with Wet Stuff. Just a single channel of perlin noise, correctly thresholded to produce a good looking puddle.
