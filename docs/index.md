@@ -4,7 +4,7 @@
 
 Wet Stuff allows you to place deferred decals into the scene which project "wetness" onto surfaces within their volume. Define complex layered and animated decals to simulate rain, puddles, damp, leaking pipes, and more - without making any modifications to any of your assets or replacing shaders. This allows you to dramatically change the atmosphere of your scene in seconds with editor placed decals, or to generate decals dynamically by attaching them to particle collision points.
 
-Available on the [Unity Asset Store](). <-- todo:Link asset store!
+Available on the [Unity Asset Store](https://assetstore.unity.com/packages/tools/particles-effects/wet-stuff-118969?aid=1100lJDF).
 
 
 ### Getting Started
