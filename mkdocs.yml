@@ -10,6 +10,7 @@ pages:
     - "Quick Start": "GettingStarted/QuickStart.md"
     - "Basic Wet Decal": "GettingStarted/WetDecal.md"
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
+    - "Weather Integration": "GettingStarted/WeatherIntegration.md"
 - "Demo Scene Breakdown":
     - "1. Basic Puddle": "Demo Scenes/Puddle.md"
     - "2. Drying With Timeline": "Demo Scenes/Drying.md"

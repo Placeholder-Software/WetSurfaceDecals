@@ -20,6 +20,20 @@ Call this to begin the drying phase of the puddle. The puddle will shrink at the
 
 ![Wet Decal Inspector](../images/RainPuddleInspector.png)
 
+### Editor Preview
+
+#### Auto Play
+
+When this box is checked the puddle will automatically animate from Wet to dry in an endless loop (only when selected and in edit mode).
+
+#### Rain
+
+When this button is clicked the puddle will begin it's rain cycle, once it is fully wet the animation will end and it will remain fully wet (only when selected and in edit mode).
+
+#### Dry
+
+When this button is clicked the puddle will begin it's drying cycle, once it is fully dry the animation will end and it will remain fully dry (only when selected and in edit mode).
+
 ### References
 
 This section contains references to other objects in the scene.
