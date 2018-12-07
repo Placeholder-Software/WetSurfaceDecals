@@ -26,6 +26,10 @@ pages:
     - "WetDecal": "Reference/WetDecal.md"
     - "Levels Visualizer": "Reference/LevelsVisualizer.md"
     - "WetStuff": "Reference/WetStuff.md"
+    - "BaseExternalWetnessSource": "Reference/BaseExternalWetnessSource.md"
+    - "DripLine": "Reference/DripLine.md"
+    - "RainPuddle": "Reference/RainPuddle.md"
+    - "AutoRainPuddle": "Reference/AutoRainPuddle.md"
     #- "Shaders":
     #    - "WetSurfaceCore": "Reference/Shaders/WetSurfaceCore.md"
     #    - "WetSurfaceMask": "Reference/Shaders/WetSurfaceMask.md"
