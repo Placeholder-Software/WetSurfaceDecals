@@ -1,6 +1,6 @@
 # Drip Line Reference
 
-This component creates a particle system between two points and automatically configures it to act like a drippling roofline. Wet decal splatters are created where the drips hit the ground. The rate of dripping is controlled by a weather system through a [Wetness Source](/References/BaseExternalWetnessSource) component.
+This component creates a particle system between two points and automatically configures it to act like a drippling roofline. Wet decal splatters are created where the drips hit the ground. The rate of dripping is controlled by a weather system through a [Wetness Source](/Referencs/BaseExternalWetnessSource) component.
 
 ![Enviro Drips](../images/EnviroDripHighlight.jpg)
 
@@ -14,7 +14,7 @@ This section contains references to other game objects in the scene. The other s
 
 #### Wetness Source
 
-A reference to a [Wetness Source](/References/BaseExternalWetnessSource) component.
+A reference to a [Wetness Source](/Reference/BaseExternalWetnessSource) component.
 
 #### Start Point
 
@@ -30,7 +30,7 @@ Clicking the `Autoconfigure Particle System` button will find a sibling `Particl
 
 ### Configure Particle Wet Splatter
 
-Clicking the `Autoconfigure Particle Wet Splatter` button will find a sibling [Particle Wet Splatter](/References/ParticleWetSplatter) component and will overwrite *all of the settings* with the necessary settings for the drip line effect.
+Clicking the `Autoconfigure Particle Wet Splatter` button will find a sibling [Particle Wet Splatter](/Reference/ParticleWetSplatter) component and will overwrite *all of the settings* with the necessary settings for the drip line effect.
 
 ### Other Settings
 

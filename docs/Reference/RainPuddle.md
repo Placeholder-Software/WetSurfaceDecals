@@ -26,7 +26,7 @@ This section contains references to other objects in the scene.
 
 #### Wetness Source
 
-A reference to a [Wetness Source](/References/BaseExternalWetnessSource) component.
+A reference to a [Wetness Source](/Reference/BaseExternalWetnessSource) component.
 
 #### Decal Prefab
 
@@ -36,7 +36,7 @@ A prefab which contains a `Wet Decal` component. Instances of this prefab will b
 
 These sections define the two "end points" of the puddle animation. The `Wet State` defines the state that the puddle is in when it has finished the animation and is completely wet. The `Dry State` defines the state that the puddle is in when it has finished the animation and is completely dry.
 
-All the settings are the standard settings for a [Wet Decal](/References/WetDecal).
+All the settings are the standard settings for a [Wet Decal](/Reference/WetDecal).
 
 ### Raining Curves/Drying Curves
 
