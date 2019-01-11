@@ -10,7 +10,7 @@ Wet Stuff works by modifying the internals of the Unity renderer to make dry mat
 
 If you can see your object here then it will be visible to Wet Stuff and will be modified by the wetness effect.
 
-For example the image above shows the barrel and the ground and so you know that they will both be modified by Wet Stuff. However it does not show the skybox so you know that it will not not be modified by Wet Stuff.
+For example the image above shows the barrel and the ground so you know that they will both be modified by Wet Stuff. However it does not show the skybox so you know that it will not not be modified by Wet Stuff.
 
 ## HDRP Support
 
