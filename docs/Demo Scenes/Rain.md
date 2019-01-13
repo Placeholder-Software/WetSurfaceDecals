@@ -1,6 +1,6 @@
 # 3. Rain With Timeline
 
-> This demo is located at `"Assets/PlaceholderSoftware/WetSurfaceDecals/Demos/3. Rain"`
+> This demo is located at `"Assets/PlaceholderSoftware/WetStuff/Demos/3. Rain"`
 
 ![Demo Scene 3](../images/DemoScene3Rain.png)
 

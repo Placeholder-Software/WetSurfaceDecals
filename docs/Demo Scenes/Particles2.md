@@ -1,6 +1,6 @@
 # 3. Short Lived Particle Splatters
 
-> This demo is located at `"Assets/PlaceholderSoftware/WetSurfaceDecals/Demos/5. Particles (Drip Drip Drip)"`
+> This demo is located at `"Assets/PlaceholderSoftware/WetStuff/Demos/5. Particles (Drip Drip Drip)"`
 
 ![Demo Scene 4](../images/DemoScene5Particles.jpg)
 

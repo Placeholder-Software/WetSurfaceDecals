@@ -2,11 +2,11 @@
 
 Import the Wet Decals asset into your project. This will create two folders:
 
- - `Assets/PlaceholderSoftware/WetSurfaceDecals`
+ - `Assets/PlaceholderSoftware/WetStuff`
 
 This folder contains the changelog, prefabs and demo scenes.
 
- - `Assets/Plugins/PlaceholderSoftware/WetSurfaceDecals`
+ - `Assets/Plugins/PlaceholderSoftware/WetStuff`
 
 This folder contains the core effect.
 
@@ -18,4 +18,4 @@ Add the `WetStuff` script to each camera in your scene. Cameras must have this s
 
 ## 3. Place `WetDecalPuddle` prefab into your scene
 
-Drag the `WetDecalPuddle` prefab located in `Assets/PlaceholderSoftware/WetSurfaceDecals/Prefabs` into your scene view and move it until it overlaps a surface, the surface should appear wet. See the [Wet Decal](/GettingStarted/WetDecal) guide for more information on how to build your own decals.
+Drag the `WetDecalPuddle` prefab located in `Assets/PlaceholderSoftware/WetStuff/Prefabs` into your scene view and move it until it overlaps a surface, the surface should appear wet. See the [Wet Decal](/GettingStarted/WetDecal) guide for more information on how to build your own decals.

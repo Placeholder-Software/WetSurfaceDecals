@@ -32,7 +32,7 @@ _Provide a detailed set of steps to reproduce the problem_
 ## Your Environment
 _Include as many relevant details about the environment you experienced the bug in_
 
-- **Wet Decals version used**: e.g. v1.0.0 _(check Assets/PlaceholderSoftware/WetSurfaceDecals/changelog)_
+- **Wet Decals version used**: e.g. v1.0.0 _(check Assets/PlaceholderSoftware/Plugins/WetStuff/Core/WetStuffVersion.cs)_
 
 - **Unity version**: e.g. 5.3.5f1 Personal _(Help > About Unity)_
 

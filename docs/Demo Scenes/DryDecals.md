@@ -1,6 +1,6 @@
 # 1. Dry Decals
 
-> This demo is located at `"Assets/PlaceholderSoftware/WetSurfaceDecals/Demos/7. Dry Decals"`
+> This demo is located at `"Assets/PlaceholderSoftware/WetStuff/Demos/7. Dry Decals"`
 
 ![Demo Scene 1](../images/DemoScene7DrySpot.png)
 

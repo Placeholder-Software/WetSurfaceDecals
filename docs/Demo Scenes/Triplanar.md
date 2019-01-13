@@ -1,6 +1,6 @@
 # 6. Triplanar Mode
 
-> This demo is located at `"Assets/PlaceholderSoftware/WetSurfaceDecals/Demos/6. Triplanar Mapping"`
+> This demo is located at `"Assets/PlaceholderSoftware/WetStuff/Demos/6. Triplanar Mapping"`
 
 ![Demo Scene 3](../images/DemoScene6Triplanar.png)
 

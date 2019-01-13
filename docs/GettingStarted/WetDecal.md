@@ -19,7 +19,7 @@ This is the most basic puddle you can create with Wet Stuff. Just a single chann
 
 ## Demos / Prefabs
 
-There are several demo scenes included in `Assets/PlaceholderSoftware/WetSurfaceDecals/Demos`. Each scene demonstrates a single aspect of the asset and it is recommended that you take a look through these scenes and understand how they work to get a feel for the best way to achieve various effects.
+There are several demo scenes included in `Assets/PlaceholderSoftware/WetStuff/Demos`. Each scene demonstrates a single aspect of the asset and it is recommended that you take a look through these scenes and understand how they work to get a feel for the best way to achieve various effects.
 
 ## Inspector Reference
 

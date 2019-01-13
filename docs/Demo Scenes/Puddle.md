@@ -1,6 +1,6 @@
 # 1. Puddle
 
-> This demo is located at `"Assets/PlaceholderSoftware/WetSurfaceDecals/Demos/1. Puddle"`
+> This demo is located at `"Assets/PlaceholderSoftware/WetStuff/Demos/1. Puddle"`
 
 ![Demo Scene 1](../images/DemoScene1Puddle.png)
 
