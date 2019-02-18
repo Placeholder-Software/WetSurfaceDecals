@@ -1,4 +1,4 @@
-Wet Stuff has several component which make it east to integrate puddle with any dynamic weather system. It's easy to extend these components to support any weather system.
+Wet Stuff has several components which make it easy to integrate puddles with any dynamic weather system. It's easy to extend these components to support any weather system.
 
 We have integrated Wet Stuff with [Enviro](https://assetstore.unity.com/packages/tools/particles-effects/enviro-sky-and-weather-33963?aid=1100lJDF) and [Unistorm](https://assetstore.unity.com/packages/tools/particles-effects/unistorm-dynamic-modular-weather-2714?aid=1100lJDF), both of these are available for free on the asset store; [Wet Stuff For Enviro](https://assetstore.unity.com/packages/tools/particles-effects/wet-stuff-for-enviro-133615?aid=1100lJDF), [Wet Stuff For Unistorm](https://assetstore.unity.com/packages/slug/139760?aid=1100lJDF). **To use these packages you must have purchased and installed both Wet Stuff and the Weather asset installed first.**
 
