@@ -6,7 +6,7 @@ We have integrated Wet Stuff with [Enviro](https://assetstore.unity.com/packages
 
 ## 1. Wetness Source
 
-Add a Wetness source component anywhere into your scene. This will be included in the weather integration package you are using (e.g. Enviro or Unistorm). For example for Enviro it is located in `Assets/PlaceholderSoftware/WetStuff/EnviroIntegration/EnviroWetness.cs`.
+Add a Wetness source component anywhere into your scene. This will be included in the weather integration package you are using (e.g. Enviro or Unistorm). For example for Enviro it is located in `Assets/PlaceholderSoftware/WetStuff/Integrations/Enviro/EnviroWetness.cs`.
 
 This component extracts data about the current weather from the weather system you are using, the other components use this data to automatically drive their behaviour in response to changes in the weather.
 
