@@ -3,7 +3,7 @@ repo_url: "https://github.com/Placeholder-Software/wetsurfacedecals"
 repo_name: "Issue Tracker"
 google_analytics: ["UA-46722926-4", "wetsurfacedecals.readthedocs.io"]
 copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder Software</a>"
-pages:
+nav:
 - Home: "index.md"
 - "Getting Started":
     - "Requirements": "GettingStarted/Requirements.md"
