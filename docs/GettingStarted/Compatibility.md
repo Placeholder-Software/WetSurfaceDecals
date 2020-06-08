@@ -18,8 +18,4 @@ It is not currently possible to support the HDRP. We are waiting for extra some 
 
 ## LWRP Support
 
-LWRP is not a deferred renderer and is thus incompatible with how Wet Stuff works. It will never be supported.
-
-## VR Support
-
-Wet Stuff currently works with VR if you are **not** using [Single Pass Stereo rendering](https://docs.unity3d.com/Manual/SinglePassStereoRendering.html) (SPSR). We have experimental support for SPSR which we expect to release soon, [contact us](mailto://admin@placeholder-software.co.uk) if you are interested in helping to test this out.
+The basic LWRP is not a deferred renderer and is thus incompatible with how Wet Stuff works - it will never be supported. Unity [plan to add](https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@5.10/manual/faq.html#does-lwrp-support-a-deferred-renderer) a deferred mode to LWRP in the future which we _may_ add support for.
