@@ -1,18 +1,28 @@
 site_name: "Wet Stuff"
+
 repo_url: "https://github.com/Placeholder-Software/wetsurfacedecals"
-repo_name: "Issue Tracker"
+repo_name: "GitHub"
+edit_uri: ""
+
 google_analytics: ["UA-46722926-4", "wetsurfacedecals.readthedocs.io"]
 copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder Software</a>"
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+
 nav:
 - Home: "index.md"
-- "Getting Started":
+- "Quickstart":
     - "Requirements": "GettingStarted/Requirements.md"
     - "Quick Start": "GettingStarted/QuickStart.md"
     - "Basic Wet Decal": "GettingStarted/WetDecal.md"
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
     - "Weather Integration": "GettingStarted/WeatherIntegration.md"
     - "Compatibility": "GettingStarted/Compatibility.md"
-- "Demo Scene Breakdown":
+- "Demos":
     - "1. Basic Puddle": "Demo Scenes/Puddle.md"
     - "2. Drying With Timeline": "Demo Scenes/Drying.md"
     - "3. Rain": "Demo Scenes/Rain.md"
