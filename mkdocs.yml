@@ -7,22 +7,16 @@ edit_uri: ""
 google_analytics: ["UA-46722926-4", "wetsurfacedecals.readthedocs.io"]
 copyright: "<a href='https://placeholder-software.co.uk/wetstuff/'>Placeholder Software</a>"
 
-markdown_extensions:
-    - toc:
-        permalink: 
-    - admonition
-    - def_list
-
 nav:
-- Home: "index.md"
-- "Quickstart":
+ - Home: "index.md"
+ - "Quickstart":
     - "Requirements": "GettingStarted/Requirements.md"
     - "Quick Start": "GettingStarted/QuickStart.md"
     - "Basic Wet Decal": "GettingStarted/WetDecal.md"
     - "Particle Splatter Wet Decals": "GettingStarted/WetParticleSplatter.md"
     - "Weather Integration": "GettingStarted/WeatherIntegration.md"
     - "Compatibility": "GettingStarted/Compatibility.md"
-- "Demos":
+ - "Demos":
     - "1. Basic Puddle": "Demo Scenes/Puddle.md"
     - "2. Drying With Timeline": "Demo Scenes/Drying.md"
     - "3. Rain": "Demo Scenes/Rain.md"
@@ -32,7 +26,7 @@ nav:
 #- "Advanced":
 #    - "The Rendering Pipeline": "Advanced/RenderingPipeline.md"
 #    - "Custom IWetDecal": "Advanced/Implementing_IWetDecal.md"
-- "Reference":
+ - "Reference":
     - "ParticleWetSplatter": "Reference/ParticleWetSplatter.md"
     - "ParticleWetSplatterTemplate": "Reference/ParticleWetSplatterTemplate.md"
     - "WetDecal": "Reference/WetDecal.md"
