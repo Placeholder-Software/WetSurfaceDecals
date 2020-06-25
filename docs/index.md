@@ -17,10 +17,6 @@ Read this [**Wet Decal**](/GettingStarted/WetDecal) guide to learn all about how
 
 Read this [**Particle Wet Splatter**](/GettingStarted/WetParticleSplatter) guide to learn all about how to use the `Particle Wet Splatter` component.
 
-### Tutorials
-
-Check out the tutorials for guides on various specific scenarios you may want to use _Wet Stuff_ for. These will help you understand how best to use the tools the asset offers.
-
 ### Advanced Topics
 
 If you want to do something unusual with _Wet Stuff_ the advanced documentation is the place to start. However we can't possibly cover every use case so make sure to [ask on the community](https://www.reddit.com/r/WetStuff/) or [raise an issue](https://github.com/Placeholder-Software/WetSurfaceDecals) if what you want to do isn't covered.
