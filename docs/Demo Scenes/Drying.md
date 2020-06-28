@@ -4,7 +4,7 @@
 
 ![Demo Scene 1](../images/DemoScene2Drying.png)
 
-This scene demonstrates how to use timline to slowly dry out a puddle of water. The basic setup is the same as [scene 1](Demo Scenes/Puddle).
+This scene demonstrates how to use timline to slowly dry out a puddle of water. The basic setup is the same as [scene 1](../Puddle).
 
 Open the timeline window and select the `Puddle` object, you will see a single timeline track with a `PlaceholderSoftware.WetStuff.Timeline.Settings` track which contains 2 clips.
 

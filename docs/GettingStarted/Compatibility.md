@@ -16,6 +16,6 @@ For example the image above shows the barrel and the ground so you know that the
 
 It is not currently possible to support the HDRP. We are waiting for extra some features to be added by Unity which will make it possible (an equivalent to the `https://docs.unity3d.com/ScriptReference/Camera.AddCommandBuffer.html` method).
 
-## LWRP Support
+## URP Support
 
-The basic LWRP is not a deferred renderer and is thus incompatible with how Wet Stuff works - it will never be supported. Unity [plan to add](https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@5.10/manual/faq.html#does-lwrp-support-a-deferred-renderer) a deferred mode to LWRP in the future which we _may_ add support for.
+The URP is not a deferred renderer and is thus incompatible with how Wet Stuff works. However, Unity [plan to add](https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@5.10/manual/faq.html#does-lwrp-support-a-deferred-renderer) a deferred mode to URP in the future which we _may_ add support for.

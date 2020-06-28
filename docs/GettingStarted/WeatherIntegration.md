@@ -14,7 +14,7 @@ This component extracts data about the current weather from the weather system y
 
 ![Drip Line](../images/EnviroDripHighlight.jpg)
 
-The [Drip Line](/Reference/DripLine) component is located in `Assets/Plugins/PlaceholderSoftware/WetStuff/Weather/DripLine.cs` and can be used to simulate dripping rooflines. This component automatically configures a particle emitter to slowly drip water from a line and automatically sets up [wet particle splatters](/GettingStarted/WetParticleSplatter) where the particles hit the floor. The rate of dripping is automatically controlled by the weather integration.
+The [Drip Line](../Reference/DripLine) component is located in `Assets/Plugins/PlaceholderSoftware/WetStuff/Weather/DripLine.cs` and can be used to simulate dripping rooflines. This component automatically configures a particle emitter to slowly drip water from a line and automatically sets up [wet particle splatters](WetParticleSplatter) where the particles hit the floor. The rate of dripping is automatically controlled by the weather integration.
 
 ## 3. Auto Rain Puddle
 
@@ -22,4 +22,4 @@ The [Drip Line](/Reference/DripLine) component is located in `Assets/Plugins/Pla
 
 ![Dry To Wet](../images/WetToDry.jpeg)
 
-The [Auto Rain Puddle](/Reference/AutoRainPuddle) component is located in `Assets/Plugins/PlaceholderSoftware/WetStuff/Weather/AutoRainPuddle.cs` and can be used to simulate puddles which grow and shrink with the weather. This component automatically animates wet decals to act like puddles in response to the weather integration.
+The [Auto Rain Puddle](../Reference/AutoRainPuddle) component is located in `Assets/Plugins/PlaceholderSoftware/WetStuff/Weather/AutoRainPuddle.cs` and can be used to simulate puddles which grow and shrink with the weather. This component automatically animates wet decals to act like puddles in response to the weather integration.

@@ -25,7 +25,7 @@ Here is an example of a more complex system using two different templates (an ar
 
 ![Gif Of Splatters](../images/ParticleWetSplatterAnim.gif)
 
-Make sure to check out the [Particle Wet Splatter](/Reference/ParticleWetSplatter) and [Particle Wet Splatter Template](/Reference/ParticleWetSplatterTemplate) reference docs for full details on all the features.
+Make sure to check out the [Particle Wet Splatter](../Reference/ParticleWetSplatter) and [Particle Wet Splatter Template](../Reference/ParticleWetSplatterTemplate) reference docs for full details on all the features.
 
 ## A Note On Collision Geometry
 

@@ -23,4 +23,4 @@ There are several demo scenes included in `Assets/PlaceholderSoftware/WetStuff/D
 
 ## Inspector Reference
 
-The WetDecal component is a powerful component with a lot of configuration options exposed in the inspector. Make sure to read through the [Wet Decal reference](/Reference/WetDecal) which explains exactly what each part of the inspector does.
+The WetDecal component is a powerful component with a lot of configuration options exposed in the inspector. Make sure to read through the [Wet Decal reference](../Reference/WetDecal) which explains exactly what each part of the inspector does.

@@ -76,4 +76,4 @@ Sets how the channel is to be configured.
 
 The levels visualizer shows a heightmap of the pixels in the channel on the left. On the right is a heightmap of the output you have configured. If a value is touching the top of the output it will produce `1.0 * Saturation` of the wetness effect. If a value is touching the bottom of the output it will be completely dry.
 
-There is a comprehensive tutorial in how to use the levels visualizer [here](/Reference/LevelsVisualizer/).
+There is a comprehensive tutorial in how to use the levels visualizer [here](../LevelsVisualizer).

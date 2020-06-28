@@ -6,7 +6,7 @@ Wet Stuff allows you to place deferred decals into the scene which project "wetn
 
 Available on the [Unity Asset Store](https://assetstore.unity.com/packages/tools/particles-effects/wet-stuff-118969?aid=1100lJDF).
 
-If you're considering purchasing Wet Stuff but you're concerned if it will work with your game have a look at [this guide](/GettingStarted/Compatibility) to determine what will and will not work.
+If you're considering purchasing Wet Stuff but you're concerned if it will work with your game have a look at [this guide](GettingStarted/Compatibility) to determine what will and will not work.
 
 
 ### Getting Started

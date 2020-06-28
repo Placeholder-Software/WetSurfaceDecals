@@ -1,6 +1,6 @@
 # Levels Visualizer
 
-The levels visualizer is part of the [Wet Decal](/Reference/WetDecal) inspector. Each colour channel in a detail layer has a levels visualizer.
+The levels visualizer is part of the [Wet Decal](../WetDecal) inspector. Each colour channel in a detail layer has a levels visualizer.
 
 It shows how the texture data (shown on the left) is converted into wetness values (shown on the right). Values at the top of the right hand box indicate maximum wetness (controlled by the `Saturation` setting). Values at the bottom of the right hand box indicate minimum wetness (i.e. completely dry).
 
