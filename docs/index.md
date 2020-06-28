@@ -11,11 +11,11 @@ If you're considering purchasing Wet Stuff but you're concerned if it will work 
 
 ### Getting Started
 
-Follow this [**Quick Start Guide**](/GettingStarted/QuickStart) to get your first basic puddle rendering in a scene.
+Follow this [**Quick Start Guide**](GettingStarted/QuickStart) to get your first basic puddle rendering in a scene.
 
-Read this [**Wet Decal**](/GettingStarted/WetDecal) guide to learn all about how to use the basic `Wet Decal` component.
+Read this [**Wet Decal**](GettingStarted/WetDecal) guide to learn all about how to use the basic `Wet Decal` component.
 
-Read this [**Particle Wet Splatter**](/GettingStarted/WetParticleSplatter) guide to learn all about how to use the `Particle Wet Splatter` component.
+Read this [**Particle Wet Splatter**](GettingStarted/WetParticleSplatter) guide to learn all about how to use the `Particle Wet Splatter` component.
 
 ### Advanced Topics
 

@@ -2,9 +2,6 @@
 
 Wet Stuff requires cameras which are configured with `Rendering Path: Deferred`. It will _not_ work in any other rendering pipelines.
 
-# Work In Progress
+# Not Supported
 
-We are planning to add support for the some of the following situations, please [contact us](mailto://tom@placeholder-software.co.uk) if you're interested in getting early access to help us test them:
-
- - Single pass stereoscopic rendering (VR)
- - HDRP
+Currently the SRP renderers (URP and HDRP) are **not** supported. If you're interested in support for one of these renderers please email [mailto://admin@placeholder-software.co.uk](mailto://admin@placeholder-software.co.uk) to register your interest.
